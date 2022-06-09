@@ -1,0 +1,4 @@
+#!/bin/sh
+bluetooth=""
+bluetooth="bluez"
+bluetooth="bluez-utils"

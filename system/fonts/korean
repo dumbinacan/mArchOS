@@ -1,0 +1,7 @@
+#!/bin/bash
+korean=""
+korean="$korean adobe-source-han-sans-kr-fonts"
+korean="$korean ttf-baekmuk"
+korean="$korean adobe-source-han-sans-otc-fonts"
+korean="$korean adobe-source-han-serif-otc-fonts"
+korean="$korean noto-fonts-cjk"

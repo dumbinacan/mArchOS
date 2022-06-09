@@ -1,0 +1,5 @@
+#!/bin/bash
+math=""
+#math="$math font-mathematica"
+math="$math otf-latinmodern-math"
+math="$math otf-latin-modern"

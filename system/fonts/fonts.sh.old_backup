@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# folder separate this bitch
+# TODO folder separate this bitch
 
 ###############
 #English fonts# 
 ###############
 english=""
 english="$english adobe-source-code-pro-fonts"
-english="$english  adobe-source-sans-pro-fonts"
-english="$english  xorg-fonts-type1"
-english="$english  ttf-linux-libertine"
-english="$english  ttf-bitstream-vera"
+english="$english adobe-source-sans-pro-fonts"
+english="$english xorg-fonts-type1"
+english="$english ttf-linux-libertine"
+english="$english ttf-bitstream-vera"
 english="$english dina-font"
 english="$english tamsyn-font"
 english="$english terminus-font"
@@ -43,10 +43,10 @@ thai=""
 #Other langs#
 #############
 other_lang=""
-other_lang="ttf-indic-otf"
-other_lang="ttf-arphic-uming"
-other_lang="ttf-freebanglafont"
-other_lang="ttf-tibetan-machine"
+other_lang="$other_lang ttf-indic-otf"
+other_lang="$other_lang ttf-arphic-uming"
+other_lang="$other_lang ttf-freebanglafont"
+other_lang="$other_lang ttf-tibetan-machine"
 ##############
 #Mathematical#
 ##############
@@ -126,9 +126,10 @@ unsorted="$unsorted ttf-ubuntu-font-family"
 unsorted="$unsorted lib32-sdl2_ttf"
 unsorted="$unsorted lib32-sdl_ttf"
 
-echo "pacman -S --noconfirm $english $korean $thai $other_lang $math $unsorted"
-pacman -S --noconfirm $english $korean $thai $other_lang $math $unsorted
-
+source texlive
+#combine all fonts
+fonts="$english $emojis $texlive $korean $thai $other_lang $math $unsorted"
+echo $fonts
 #lib32-fontconfig
 
 ##AUR OTHER LANGS
@@ -142,4 +143,3 @@ pacman -S --noconfirm $english $korean $thai $other_lang $math $unsorted
 #yaourt -S --noconfirm ttf-d2coding ttf-unfonts-core-ibx otf-kopubworld ttf-kopubworld otf-kopub ttf-kopub ttf-nanumgothic_coding spoqa-han-sans ttf-nanum
 ##Thai fonts in AUR
 #yaourt -S --noconfirm ttf-lao-fonts ttf-lao
-

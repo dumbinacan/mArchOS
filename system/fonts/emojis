@@ -1,0 +1,9 @@
+#!/bin/bash
+emojis=""
+emojis="$emojis noto-fonts-emoji"
+emojis="$emojis haskell-emojis"
+emojis="$emojis nodejs-emojione"
+emojis="$emojis python-emoji"
+emojis="$emojis rime-emoji"
+emojis="$emojis ttf-joypixels"
+emojis="$emojis unicode-emoji"

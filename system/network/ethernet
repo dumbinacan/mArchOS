@@ -1,0 +1,4 @@
+#!/bin/sh
+ethernet=""
+ethernet="$ethernet dhcp"
+ethernet="$ethernet dhcpcd"
