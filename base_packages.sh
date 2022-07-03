@@ -1,3 +1,3 @@
 #!/bin/sh/
 
-base base-devel gvim htop man
+base base-devel gvim htop man git mpv
