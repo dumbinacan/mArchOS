@@ -1,11 +1,12 @@
 #!/bin/sh
 kde=""
-kde="sddm sddm-kcm"
-kde="plasma-meta"
-kde="plasma-wayland-session"
-kde="kde-applications-meta"
-kde="kvantum"
-kde="latte-dock"
+kde="$kde sddm"
+kde="$kde sddm-kcm"
+kde="$kde plasma-meta"
+kde="$kde plasma-wayland-session"
+kde="$kde kde-applications-meta"
+kde="$kde kvantum"
+kde="$kde latte-dock"
 
 #TODO Figure out a nice theme
 #kvantum_theme_adapta="https://aur.archlinux.org/cgit/aur.git/snapshot/adapta-kde-git.tar.gz"
