@@ -1,0 +1,7 @@
+#!/bin/sh
+doc_viewer=""
+doc_viewer="$doc_viewer zathura"
+doc_viewer="$doc_viewer zathura-cb"
+doc_viewer="$doc_viewer zathura-djvu"
+doc_viewer="$doc_viewer zathura-pdf-mupdf"
+doc_viewer="$doc_viewer zathura-ps"
