@@ -1,5 +1,5 @@
 #!/bin/bash
-pkg="yay-git"
+pkg="yay"
 yay_pkg="https://aur.archlinux.org/cgit/aur.git/snapshot/$pkg.tar.gz"
 cur_dir=$(pwd)
 

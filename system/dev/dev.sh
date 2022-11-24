@@ -5,7 +5,8 @@ clang="clang"
 
 # Go
 go="go"
-go="gcc-go"
+# Its one or the other
+# go="gcc-go"
 
 # Java
 java="jre-openjdk"
@@ -37,7 +38,7 @@ java="$java jre8-openjdk-headless"
 java="$java jdk8-openjdk"
 java="$java openjdk8-doc"
 java="$java openjdk8-src"
-java="$java java8-openjfx"
+#java="$java java8-openjfx"
 
 # Rust
 # rustup toolchain manager doesn't install the toolchain

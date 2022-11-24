@@ -1,3 +1,5 @@
 #!/bin/sh/
 # run after properly partitioning and mounting the drive for the new system to /mnt
-pacstrap /mnt base base-devel
+echo "Here's to hoping you didn't fuck this up"
+pacstrap -K /mnt base base-devel linux-zen linux-zen-docs linux-zen-headers linux-firmware
+echo "Don't forget to chroot into /mnt before running install.sh"
