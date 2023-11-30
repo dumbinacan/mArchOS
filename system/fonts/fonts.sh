@@ -8,3 +8,5 @@ source emojis
 source unsorted
 source texlive
 fonts="$english $korean $thai $texlive $math $emojis $unsorted"
+
+sudo pacman -S $fonts
