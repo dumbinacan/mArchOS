@@ -46,4 +46,4 @@ java="$java openjdk8-src"
 rust="rustup"
 
 # generalize outsid of this file
-dev="$clang $go $java $rust"
+devtools="$clang $go $java $rust"
