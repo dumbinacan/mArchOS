@@ -5,11 +5,6 @@ english="$english adobe-source-sans-pro-fonts"
 english="$english xorg-fonts-type1"
 english="$english ttf-linux-libertine"
 english="$english ttf-bitstream-vera"
-<<<<<<< HEAD
-=======
-#english="$english dina-font"
-#english="$english tamsyn-font"
->>>>>>> 84dd862c32d195e6a23439964aa3b4ed0fc1fccf
 english="$english terminus-font"
 english="$english ttf-ubuntu-font-family"
 english="$english ttf-liberation"
