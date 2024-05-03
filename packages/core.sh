@@ -14,6 +14,9 @@ core="$core neofetch"
 core="$core nextcloud-client"
 core="$core tor"
 
+core="$core plymouth"
+core="$core plymouth-kcm"
+
 # file systems this might be redundant
 core="$core btrfs-progs"
 core="$core dosfstools"

@@ -43,8 +43,10 @@ java="$java openjdk8-src"
 # Rust
 # rustup toolchain manager doesn't install the toolchain
 # you need to tell rustup to do so afterward
-rust="rustup"
+rust="rust"
 
+# Arduino IDE
+arduino="$arduino arduino-ide"
 # generalize outsid of this file
 devtools="$clang $go $java $rust"
 <<<<<<< HEAD
