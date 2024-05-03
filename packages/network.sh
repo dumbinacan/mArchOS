@@ -1,6 +1,7 @@
 #!/bin/sh
 
 network=""
+network="$network ufw"
 network="$network iw"
 network="$network iwd"
 network="$network wireless-regdb"
