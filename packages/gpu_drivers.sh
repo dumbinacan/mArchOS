@@ -10,11 +10,15 @@ RX6700XT="$RX6700XT vulkan-radeon" # preferred over amdvlk
 RX6700XT="$RX6700XT lib32-vulkan-radeon"
 
 # DDX driver (2D acceleration in Xorg)
-# RX6700XT="$RX6700XT xf86-video-amdgpu"
+RX6700XT="$RX6700XT xf86-video-amdgpu"
 
 # Hardware Acceleration
-RX6700XT="$RX6700XT {lib32-,}libva-mesa-driver"
-RX6700XT="$RX6700XT {lib32-,}mesa-vdpau"
+RX6700XT="$RX6700XT lib32-libva-mesa-driver"
+RX7600XT="$RX6700XT libva-mesa-driver"
+RX6700XT="$RX6700XT lib32-mesa-vdpau"
+RX7600XT="$RX6700XT mesa-vdpau"
 
 # generalize outside of this file
 gpu_drivers=$RX6700XT
+
+sudo pacman -S $gpu_drivers
